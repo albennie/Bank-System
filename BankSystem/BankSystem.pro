@@ -14,10 +14,16 @@ INCLUDEPATH += $$PWD/CUSTOMEROPTIONS
 
 SOURCES += \
     main.cpp \
-    DASHBOARDS\LoginForm.cpp
+    DASHBOARDS\LoginForm.cpp \
+    BASECLASSES/LinkedList.cpp \
+    BASECLASSES/Node.cpp \
+    BASECLASSES/User.cpp
 
 HEADERS += \
-    DASHBOARDS\LoginForm.h
+    DASHBOARDS\LoginForm.h \
+    BASECLASSES/LinkedList.h \
+    BASECLASSES/Node.h \
+    BASECLASSES/User.h
 
 FORMS += \
     DASHBOARDS\LoginForm.ui
