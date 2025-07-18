@@ -1,4 +1,4 @@
-#include "LoginForm.h"
+#include "DASHBOARDS/LoginForm.h"
 
 #include <QApplication>
 
