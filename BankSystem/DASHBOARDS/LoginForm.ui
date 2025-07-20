@@ -35,7 +35,7 @@
    <string>Login Page</string>
   </property>
   <property name="windowIcon">
-   <iconset resource="../Resources.qrc">
+   <iconset resource="../Recources.qrc">
     <normaloff>:/Logo/Logo.ico</normaloff>:/Logo/Logo.ico</iconset>
   </property>
   <property name="styleSheet">
@@ -350,7 +350,7 @@ QLabel#errorLabel {
   </widget>
  </widget>
  <resources>
-  <include location="../Resources.qrc"/>
+  <include location="../Recources.qrc"/>
  </resources>
  <connections/>
 </ui>
