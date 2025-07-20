@@ -17,13 +17,15 @@ SOURCES += \
     DASHBOARDS\LoginForm.cpp \
     BASECLASSES/LinkedList.cpp \
     BASECLASSES/Node.cpp \
-    BASECLASSES/User.cpp
+    BASECLASSES/User.cpp \
+    BASECLASSES/Costomer.cpp
 
 HEADERS += \
     DASHBOARDS\LoginForm.h \
     BASECLASSES/LinkedList.h \
     BASECLASSES/Node.h \
-    BASECLASSES/User.h
+    BASECLASSES/User.h \
+    BASECLASSES/Costomer.h
 
 FORMS += \
     DASHBOARDS\LoginForm.ui
