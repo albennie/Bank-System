@@ -22,6 +22,7 @@ SOURCES += \
     BASECLASSES/CheckingAccount.cpp \
     BASECLASSES/Qarz_al_HasanAccount.cpp \
     BASECLASSES/SavingsAccount.cpp
+    BASECLASSES/Costomer.cpp
 
 HEADERS += \
     DASHBOARDS\LoginForm.h \
@@ -32,6 +33,7 @@ HEADERS += \
     BASECLASSES/CheckingAccount.h \
     BASECLASSES/Qarz_al_HasanAccount.h \
     BASECLASSES/SavingsAccount.h
+    BASECLASSES/Costomer.h
 
 FORMS += \
     DASHBOARDS\LoginForm.ui
