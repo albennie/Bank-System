@@ -17,13 +17,19 @@ SOURCES += \
     DASHBOARDS\LoginForm.cpp \
     BASECLASSES/LinkedList.cpp \
     BASECLASSES/Node.cpp \
-    BASECLASSES/User.cpp
+    BASECLASSES/User.cpp \
+    BASECLASSES/CheckingAccount.cpp \
+    BASECLASSES/Qarz_al_HasanAccount.cpp \
+    BASECLASSES/SavingsAccount.cpp
 
 HEADERS += \
     DASHBOARDS\LoginForm.h \
     BASECLASSES/LinkedList.h \
     BASECLASSES/Node.h \
-    BASECLASSES/User.h
+    BASECLASSES/User.h \
+    BASECLASSES/CheckingAccount.h \
+    BASECLASSES/Qarz_al_HasanAccount.h \
+    BASECLASSES/SavingsAccount.h
 
 FORMS += \
     DASHBOARDS\LoginForm.ui
