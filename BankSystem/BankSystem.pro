@@ -18,24 +18,26 @@ SOURCES += \
     BASECLASSES/LinkedList.cpp \
     BASECLASSES/Node.cpp \
     BASECLASSES/User.cpp \
-    BASECLASSES/BankAccount.cpp
+    BASECLASSES/BankAccount.cpp \
     BASECLASSES/CheckingAccount.cpp \
     BASECLASSES/Qarz_al_HasanAccount.cpp \
-    BASECLASSES/SavingsAccount.cpp
-    BASECLASSES/Costomer.cpp
-    BASECLASSES/Admin.cpp
+    BASECLASSES/SavingsAccount.cpp \
+    BASECLASSES/Costomer.cpp \
+    BASECLASSES/Admin.cpp \
+    BASECLASSES/BankSystem.cpp
 
 HEADERS += \
     DASHBOARDS\LoginForm.h \
     BASECLASSES/LinkedList.h \
     BASECLASSES/Node.h \
     BASECLASSES/User.h \
-    BASECLASSES/BankAccount.h
+    BASECLASSES/BankAccount.h \
     BASECLASSES/CheckingAccount.h \
     BASECLASSES/Qarz_al_HasanAccount.h \
-    BASECLASSES/SavingsAccount.h
-    BASECLASSES/Costomer.h
-    BASECLASSES/Admin.h
+    BASECLASSES/SavingsAccount.h \
+    BASECLASSES/Costomer.h \
+    BASECLASSES/Admin.h \
+    BASECLASSES/BankSystem.h
 
 FORMS += \
     DASHBOARDS\LoginForm.ui
