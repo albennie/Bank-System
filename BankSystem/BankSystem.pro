@@ -13,6 +13,8 @@ INCLUDEPATH += $$PWD/ADMINOPTIONS
 INCLUDEPATH += $$PWD/CUSTOMEROPTIONS
 
 SOURCES += \
+    DASHBOARDS/AdminDashboard.cpp \
+    DASHBOARDS/CustomerDashboard.cpp \
     main.cpp \
     DASHBOARDS\LoginForm.cpp \
     BASECLASSES/LinkedList.cpp \
@@ -28,6 +30,8 @@ SOURCES += \
     BASECLASSES/Admin.cpp
 
 HEADERS += \
+    DASHBOARDS/AdminDashboard.h \
+    DASHBOARDS/CustomerDashboard.h \
     DASHBOARDS\LoginForm.h \
     BASECLASSES/LinkedList.h \
     BASECLASSES/Node.h \
@@ -42,6 +46,8 @@ HEADERS += \
     BASECLASSES/Admin.h
 
 FORMS += \
+    DASHBOARDS/AdminDashboard.ui \
+    DASHBOARDS/CustomerDashboard.ui \
     DASHBOARDS\LoginForm.ui
 
 # Default rules for deployment.
