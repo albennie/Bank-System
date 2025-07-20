@@ -24,7 +24,8 @@ SOURCES += \
     BASECLASSES/SavingsAccount.cpp \
     BASECLASSES/Costomer.cpp \
     BASECLASSES/Admin.cpp \
-    BASECLASSES/BankSystem.cpp
+    BASECLASSES/BankSystem.cpp \
+    BASECLASSES/Admin.cpp
 
 HEADERS += \
     DASHBOARDS\LoginForm.h \
@@ -37,7 +38,8 @@ HEADERS += \
     BASECLASSES/SavingsAccount.h \
     BASECLASSES/Costomer.h \
     BASECLASSES/Admin.h \
-    BASECLASSES/BankSystem.h
+    BASECLASSES/BankSystem.h \
+    BASECLASSES/Admin.h
 
 FORMS += \
     DASHBOARDS\LoginForm.ui
@@ -46,3 +48,6 @@ FORMS += \
 qnx: target.path = /tmp/$${TARGET}/bin
 else: unix:!android: target.path = /opt/$${TARGET}/bin
 !isEmpty(target.path): INSTALLS += target
+
+RESOURCES += \
+    Resources.qrc
