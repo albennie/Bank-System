@@ -14,6 +14,7 @@ INCLUDEPATH += $$PWD/CUSTOMEROPTIONS
 
 SOURCES += \
     CUSTOMEROPTIONS/C_ViewSpecificBankAccount.cpp \
+    CUSTOMEROPTIONS/MoneyTransfer.cpp \
     DASHBOARDS/AdminDashboard.cpp \
     DASHBOARDS/CustomerDashboard.cpp \
     main.cpp \
@@ -32,6 +33,7 @@ SOURCES += \
 
 HEADERS += \
     CUSTOMEROPTIONS/C_ViewSpecificBankAccount.h \
+    CUSTOMEROPTIONS/MoneyTransfer.h \
     DASHBOARDS/AdminDashboard.h \
     DASHBOARDS/CustomerDashboard.h \
     DASHBOARDS/LoginForm.h \
@@ -49,6 +51,7 @@ HEADERS += \
 
 FORMS += \
     CUSTOMEROPTIONS/C_ViewSpecificBankAccount.ui \
+    CUSTOMEROPTIONS/MoneyTransfer.ui \
     DASHBOARDS/AdminDashboard.ui \
     DASHBOARDS/CustomerDashboard.ui \
     DASHBOARDS/LoginForm.ui
