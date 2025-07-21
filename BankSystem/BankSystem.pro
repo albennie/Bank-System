@@ -13,6 +13,7 @@ INCLUDEPATH += $$PWD/ADMINOPTIONS
 INCLUDEPATH += $$PWD/CUSTOMEROPTIONS
 
 SOURCES += \
+    CUSTOMEROPTIONS/C_ViewSpecificBankAccount.cpp \
     DASHBOARDS/AdminDashboard.cpp \
     DASHBOARDS/CustomerDashboard.cpp \
     main.cpp \
@@ -30,6 +31,7 @@ SOURCES += \
     BASECLASSES/Admin.cpp
 
 HEADERS += \
+    CUSTOMEROPTIONS/C_ViewSpecificBankAccount.h \
     DASHBOARDS/AdminDashboard.h \
     DASHBOARDS/CustomerDashboard.h \
     DASHBOARDS/LoginForm.h \
@@ -46,6 +48,7 @@ HEADERS += \
     BASECLASSES/Admin.h
 
 FORMS += \
+    CUSTOMEROPTIONS/C_ViewSpecificBankAccount.ui \
     DASHBOARDS/AdminDashboard.ui \
     DASHBOARDS/CustomerDashboard.ui \
     DASHBOARDS/LoginForm.ui
