@@ -13,6 +13,14 @@ INCLUDEPATH += $$PWD/ADMINOPTIONS
 INCLUDEPATH += $$PWD/CUSTOMEROPTIONS
 
 SOURCES += \
+    ADMINOPTIONS/AddBankAccount.cpp \
+    ADMINOPTIONS/AddNewCustomer.cpp \
+    ADMINOPTIONS/EditCustomerInfo.cpp \
+    ADMINOPTIONS/ViewAllBankAccounts.cpp \
+    ADMINOPTIONS/ViewAllCustomers.cpp \
+    ADMINOPTIONS/ViewOtherAdmins.cpp \
+    ADMINOPTIONS/ViewSpecificBankAccount.cpp \
+    ADMINOPTIONS/ViewSpecificCustomerAccount.cpp \
     CUSTOMEROPTIONS/C_ViewSpecificBankAccount.cpp \
     CUSTOMEROPTIONS/MoneyTransfer.cpp \
     DASHBOARDS/AdminDashboard.cpp \
@@ -32,6 +40,14 @@ SOURCES += \
     BASECLASSES/Admin.cpp
 
 HEADERS += \
+    ADMINOPTIONS/AddBankAccount.h \
+    ADMINOPTIONS/AddNewCustomer.h \
+    ADMINOPTIONS/EditCustomerInfo.h \
+    ADMINOPTIONS/ViewAllBankAccounts.h \
+    ADMINOPTIONS/ViewAllCustomers.h \
+    ADMINOPTIONS/ViewOtherAdmins.h \
+    ADMINOPTIONS/ViewSpecificBankAccount.h \
+    ADMINOPTIONS/ViewSpecificCustomerAccount.h \
     CUSTOMEROPTIONS/C_ViewSpecificBankAccount.h \
     CUSTOMEROPTIONS/MoneyTransfer.h \
     DASHBOARDS/AdminDashboard.h \
@@ -50,6 +66,14 @@ HEADERS += \
     BASECLASSES/Admin.h
 
 FORMS += \
+    ADMINOPTIONS/AddBankAccount.ui \
+    ADMINOPTIONS/AddNewCustomer.ui \
+    ADMINOPTIONS/EditCustomerInfo.ui \
+    ADMINOPTIONS/ViewAllBankAccounts.ui \
+    ADMINOPTIONS/ViewAllCustomers.ui \
+    ADMINOPTIONS/ViewOtherAdmins.ui \
+    ADMINOPTIONS/ViewSpecificBankAccount.ui \
+    ADMINOPTIONS/ViewSpecificCustomerAccount.ui \
     CUSTOMEROPTIONS/C_ViewSpecificBankAccount.ui \
     CUSTOMEROPTIONS/MoneyTransfer.ui \
     DASHBOARDS/AdminDashboard.ui \
