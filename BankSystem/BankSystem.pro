@@ -32,7 +32,7 @@ SOURCES += \
 HEADERS += \
     DASHBOARDS/AdminDashboard.h \
     DASHBOARDS/CustomerDashboard.h \
-    DASHBOARDS\LoginForm.h \
+    DASHBOARDS/LoginForm.h \
     BASECLASSES/LinkedList.h \
     BASECLASSES/Node.h \
     BASECLASSES/User.h \
@@ -48,7 +48,7 @@ HEADERS += \
 FORMS += \
     DASHBOARDS/AdminDashboard.ui \
     DASHBOARDS/CustomerDashboard.ui \
-    DASHBOARDS\LoginForm.ui
+    DASHBOARDS/LoginForm.ui
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin
